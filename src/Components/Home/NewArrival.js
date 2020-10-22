@@ -57,13 +57,9 @@ const NewArrival = () => {
         <div className="">
             <h4 className="text-center section-title">New Arrival</h4>
             <div className="text-center my-3">
-            <Button className="btn btn-danger m-1" onClick={previous}>
-              Prev
-            </Button>
-            <Button className="btn btn-danger m-1" onClick={next}>
-              Next
-            </Button>
-           </div>
+              <Button className="btn btn-danger m-1" onClick={previous}>Prev</Button>
+              <Button className="btn btn-danger m-1" onClick={next}>Next</Button>
+            </div>
             <Slider ref={c => (customSlider.current = c)} {...settings} >
                 <div>
                   <Card className="image-box card">

@@ -62,4 +62,11 @@
 @media (min-width: 1200px) {
 
 }
+ /* home page big image slider */
+@media (max-width: 784px) {
+    .slider-img{
+        height:300px;
+    }
+}
+
 
